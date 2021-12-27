@@ -33,7 +33,7 @@ namespace TaxiRabbit
             services.AddTransient<IReceiveTripsRepository, ReceiveTripsRepository>();
             services.AddTransient<INumberTripsRepository, NumberTripsRepository>();
             services.AddTransient<IWeatherRepository, WeatherRepository>();
-            services.RegisterServiceForwarder<ILogService>("taxis-service");
+            services.RegisterServiceForwarder<ILogService>("Taxi");
             services.AddTransient<INumberTripsRepository, NumberTripsRepository>();
 
             services.AddTransient<TripsService>();

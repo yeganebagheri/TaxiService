@@ -1,4 +1,3 @@
-E:\.netCore\TaxiRabbit\obj\Debug\net5.0\TaxiRabbit.csprojAssemblyReference.cache
 E:\.netCore\TaxiRabbit\obj\Debug\net5.0\TaxiRabbit.GeneratedMSBuildEditorConfig.editorconfig
 E:\.netCore\TaxiRabbit\obj\Debug\net5.0\TaxiRabbit.AssemblyInfoInputs.cache
 E:\.netCore\TaxiRabbit\obj\Debug\net5.0\TaxiRabbit.AssemblyInfo.cs
@@ -37,7 +36,6 @@ E:\.netCore\TaxiRabbit\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
 E:\.netCore\TaxiRabbit\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
 E:\.netCore\TaxiRabbit\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
 E:\.netCore\TaxiRabbit\obj\Debug\net5.0\staticwebassets\TaxiRabbit.StaticWebAssets.Manifest.cache
-E:\.netCore\TaxiRabbit\obj\Debug\net5.0\staticwebassets\TaxiRabbit.StaticWebAssets.xml
 E:\.netCore\TaxiRabbit\obj\Debug\net5.0\scopedcss\bundle\TaxiRabbit.styles.css
 E:\.netCore\TaxiRabbit\obj\Debug\net5.0\TaxiRabbit.RazorTargetAssemblyInfo.cache
 E:\.netCore\TaxiRabbit\obj\Debug\net5.0\TaxiRabbit.csproj.CopyComplete
@@ -46,3 +44,4 @@ E:\.netCore\TaxiRabbit\obj\Debug\net5.0\ref\TaxiRabbit.dll
 E:\.netCore\TaxiRabbit\obj\Debug\net5.0\TaxiRabbit.pdb
 E:\.netCore\TaxiRabbit\obj\Debug\net5.0\TaxiRabbit.genruntimeconfig.cache
 E:\.netCore\TaxiRabbit\bin\Debug\net5.0\RestEase.dll
+E:\.netCore\TaxiRabbit\obj\Debug\net5.0\TaxiRabbit.csproj.AssemblyReference.cache

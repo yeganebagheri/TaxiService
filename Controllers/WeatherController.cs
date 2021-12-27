@@ -24,17 +24,26 @@ namespace TaxiRabbit.Controllers
             _numberTripsRepository = numberTripsRepository;
         }
 
-        [HttpGet("{City}")]
-        public async Task<IActionResult> Get(string city)
+        [HttpGet]
+        public async Task<IActionResult> Get()
         {
-            int TripsNumber = await _numberTripsRepository.GetNumber();
-            int CityTemperature = _weatherRepo.GetTemperature();
-             await _logService.Create(new TripDto()
-             {
-                 TripsNumber = TripsNumber,
-                 TemperatureC = CityTemperature
-             });
-            return Ok(CityTemperature);
+            try
+            {
+
+                int TripsNumber = await _numberTripsRepository.GetNumber();
+                int CityTemperature = _weatherRepo.GetTemperature();
+                await _logService.Create(new TripDto()
+                {
+                    TripsNumber = TripsNumber,
+                    TemperatureC = CityTemperature
+                });
+                return Ok(CityTemperature);
+            }
+            catch (Exception ex)
+            {
+                //log error
+                return StatusCode(500, ex.Message);
+            }
 
         }
     }
